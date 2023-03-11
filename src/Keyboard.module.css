@@ -1,0 +1,26 @@
+.btn {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 2.2em;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.btnMissed {
+    background-color: #ccc;
+    color: #777;
+    border: #777;
+}
+
+.btnMatched {
+    background-color: crimson;
+    color: #fff;
+    border-color: crimson;
+}
+
+
+.btn:hover:not(:disabled),
+.btn:active:not(:disabled) {
+    background-color: crimson;
+    color: #fff
+}
